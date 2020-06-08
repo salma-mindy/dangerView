@@ -34,14 +34,14 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">
                     <i class="fa fa-user-plus" aria-hidden="true"></i>
-                    <span>Ajouter un opérateurs</span>
+                    <span>Ajouter une Information</span>
                 </a>
             </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="#">
                     <i class="fa fa-users" aria-hidden="true"></i>
-                    <span>Liste des opérateurs</span></a>
+                    <span>Mes enregistrements</span></a>
             </li>
         </ul>
         <!-- / Sidebar -->
@@ -99,38 +99,47 @@
                 <!-- Contenue de la page -->
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-xl-6 col-lg-5">
-                            <div class="card mb-4">
-                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold text-primary">Activités</h6>
-                                </div>
-                                <div class="card-body">
 
+                          <!-- Activités -->
+                        <div class="col-md-6 col-lg-5">
+                           
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                    <h6 class="m-0 font-weight-bold text-primary">Ajouter une information</h6>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-5">
-                            <div class="card mb-4">
-                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold text-primary">Visiteurs</h6>
-                                </div>
+                                    <div class="card-body">
+                                      <div class="card-text">
+                                          <p>
+                                              Vous avez ajouté: <span style="color: red;">Braquage d'un duplex</span>, il y a 3 jours. <br>
+                                              Vous avez modifié:<span style="color: red;">Modifié vol à Gagnoa</span>, il y a 1 semaine. <br>
+                                              Vous avez modifié: Votre mot de passe, il y a 1 mois.
+                                          </p>
+                                          
+                                    </div>   
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                        
+                        <div class="col-md-6 col-lg-5">
+                            <div class="card mb-4" style="width: 18rem;">
+                                <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap">
                                 <div class="card-body">
-
+                                  <p class="card-text"></p>
                                 </div>
-                            </div>
+                              </div>
                         </div>
                     </div>
-                </div>
                 <!-- /Contenue de la page -->
 
             </div>
             <!-- End of Main Content -->
 
             <!-- Footer -->
-            <footer class="sticky-footer bg-white" style="background: #ffc500 !important">
+            <footer class="sticky-footer bg-white" style="background: #ffc500!important">
                 <div class="container">
                     <div class="copyright text-center">
-                        <span>Copyright &copy; 2020, design by Headquater location</span>
+                        <span>Copyright &copy; 2020, design by Shelly Aka</span>
                     </div>
                 </div>
             </footer>

@@ -4573,7 +4573,7 @@
  .card-text:last-child {
      margin-bottom: 0
  }
- 
+
  .card-link:hover {
      text-decoration: none
  }
@@ -4618,7 +4618,7 @@
      margin-right: -.625rem;
      margin-left: -.625rem
  }
- 
+
  .card-img-overlay {
      position: absolute;
      top: 0;
@@ -4764,6 +4764,21 @@
      margin-bottom: -1px
  }
  
+/* mes cardres */
+.card{
+    border-style: hidden;
+}
+
+.card-header{
+    background-color: #a19e9e;
+}
+
+.card-body {
+    background-color: #464141;
+}
+
+
+
  .breadcrumb {
      display: flex;
      flex-wrap: wrap;
@@ -4886,6 +4901,30 @@
      border-top-right-radius: .2rem;
      border-bottom-right-radius: .2rem
  }
+
+ /* Pagination */
+.pagination a {
+    color: red;
+    padding: 0px 9px;
+    text-decoration: none;
+    border: 1px solid rgb(39, 38, 38);
+    background-color: #565050;
+  }
+  
+  
+  .pagination a.active {
+    background-color: red;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: red;}
+  
+  .button{
+      font-size: 8px;
+      color: #565050;
+      background-color: #ffc500;
+      border-style: none;
+   }
  
  .badge {
      display: inline-block;

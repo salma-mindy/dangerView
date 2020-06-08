@@ -49,7 +49,7 @@
         <div id="content-wrapper" class="d-flex flex-column">
             <!-- Main Content -->
             <div id="content">
-                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow" style="background: #ff1300 !important;font-weight: 700;">
+                <nav class="navbar navbar-expand navbar-light bg-dark topbar mb-4 static-top shadow" style="background: c#ff1300 !important;font-weight: 700;">
                     <strong id="sidebarToggleTop" class="d-md-none" style="color: #fff !important;font-weight: 900;">
                       Danger <span style="color:#000">View</span>
                     </strong>
@@ -97,92 +97,92 @@
                 <!-- / Topbar -->
 
                 <!-- Contenue de la page -->
+
                 <div class="container-fluid">
-                    <div class="row">
-
-                          <!-- Activités -->
-                        <div class="col-md-6 col-lg-5">
-                            <div class="card mb-4">
-                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold text-primary">Activités</h6>
-                                </div>
-                                <div class="card-body">
-                                    <div class="card-text">
-                                   <p>Ajout de l'opérateur 8, il y a 2 minutes.</p>
-                                   <div>
-                                   <p>Suppression de l'opérateur 8, il y a 2 .</p>
-                                </div>
-                                </div>
-                                </div>
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-md-6">
+                            <h6 class="m-0 font-weight-bold text-primary">Listes de tous les opérateurs </h6>
+                            </div>
+                            <div class="col-md-6">
+                        <button class="button"><i class="fa fa-plus"></i></button>
                             </div>
                         </div>
-                        <!-- / Activités -->
+                     </div>
+                     
+                 <div class="card-body">
+                    <div class="table-responsive-md">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th>Actions</th>
+                                  <th>Id</th>
+                                  <th>Nom</th>
+                                  <th>Prénom</th>
+                                  <th>Nbre Ajout</th>
+                                  <th>Dernière connexion</th>
+                                </tr>
+                              </thead>
+  
+                              <tbody>
+                                <tr>
+                                  <th></th>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                </tr>
+                                <tr>
+                                  <th></th>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                </tr>
+                                <tr>
+                                  <th></th>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                </tr>
+                              </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    </div>
+                
+            </div>
 
-                          <!-- fil d'actualité -->
-                        <div class="col-md-6 col-lg-5"> 
-                            <div class="card mb-4">
-                                <div class="card-header">
-                                <h6 class="m-0 font-weight-bold text-primary">Fil d'actualité</h6>
-                            </div>
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class=" card-text col-md-6 text-center">
-                                  <p>Visiteurs <br> 10 <br> en ligne</p>
-                                        </div>
-                                        <div class=" card-text col-md-6 text-center">
-                                            <p>Opérateurs <br> 5 <br> connectés</p>
-                                                  </div>
-                                     </div>
-                                </div>
-                              </div>
-                            </div>
-                        </div>
-                            <!-- / fil d'actualité -->
-
-                        <!-- Informations enregistrées -->
-                            <div class="card mb-4">
-                                <div class="card-header">
-                                <h6 class="m-0 font-weight-bold text-primary">Informations enregistrées</h6>
-                            </div>
-                                <div class="card-body">
-                                    <div class="row">
-                                        
-                                        <div class=" card-text col-md-3 text-center">
-                                           <P>Total <br> 2802</P> 
-                                        </div>
-                                        <div class=" card-text col-md-3 text-center">
-                                           <P>Le mois dernier <br>30</P>
-                                        </div>
-                                        <div class="card-text col-md-3 text-center">
-                                           <P>La semaine dernière <br>10</P> 
-                                        </div>
-                                        <div class="card-text col-md-3 text-center">
-                                           <P>Aujourd'hui<br> 5</P> 
-                                        </div>
-                                   
-                                </div>
-                                    </div>
-                            </div>
-
-                            <!-- Trafic -->
-                                <div class="card mb-4">
-                                    <div class="card-header">
-                                    <h6 class="m-0 font-weight-bold text-primary">Trafic</h6>
-                                </div>
-                                    <div class="card-body">
-                                      <p class="card-text"></p>   
-                                    </div>
-                                    </div>
+            <!-- Pagination -->
+                <nav aria-label="pagination">
+                    <ul class="pagination justify-content-center">
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </li>
+                    </ul>
+                </nav>
+                
                 <!-- /Contenue de la page -->
 
             </div>
             <!-- End of Main Content -->
 
             <!-- Footer -->
-            <footer class="sticky-footer bg-white">
+            <footer class="sticky-footer bg-white" style="background: #ff1300 !important">
                 <div class="container">
                     <div class="copyright text-center">
-                        <span>Copyright &copy; 2020, design by Headquater location</span>
+                        <span>Copyright &copy; 2020, design by Shelly Aka</span>
                     </div>
                 </div>
             </footer>
@@ -239,3 +239,4 @@
 </body>
 
 </html>
+
